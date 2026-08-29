@@ -1,0 +1,149 @@
+<!DOCTYPE html> <html lang="en"> <head>
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<title>Order Confirmation</title>
+
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+>
+
+<link
+    rel="stylesheet"
+    href="style.css"
+>
+
+</head> <body>
+<!-- HEADER -->
+
+<header>
+
+    <div class="navbar">
+
+        <div class="nav-logo border">
+
+            <div class="logo"></div>
+
+        </div>
+
+
+        <div class="checkout-title">
+
+            Order Confirmation
+
+        </div>
+
+
+        <div
+            class="nav-cart border"
+            id="cart-button"
+        >
+
+            <i class="fa-solid fa-cart-shopping"></i>
+
+            <span id="cart-count">0</span>
+
+            Cart
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- ORDER SUCCESS -->
+
+<main class="success-page">
+
+    <div class="success-box">
+
+        <div class="success-icon">
+
+            <i class="fa-solid fa-check"></i>
+
+        </div>
+
+
+        <h1>
+            Order Placed Successfully!
+        </h1>
+
+
+        <p class="success-message">
+
+            Thank you for shopping with us.
+
+            Your order has been placed successfully.
+
+        </p>
+
+
+        <div class="order-details">
+
+            <h2>
+                Order Details
+            </h2>
+
+
+            <p>
+                <strong>Order ID:</strong>
+                <span id="order-id"></span>
+            </p>
+
+
+            <p>
+                <strong>Order Date:</strong>
+                <span id="order-date"></span>
+            </p>
+
+
+            <p>
+                <strong>Payment Method:</strong>
+                <span id="order-payment"></span>
+            </p>
+
+
+            <p class="success-total">
+
+                <strong>Total Amount:</strong>
+
+                ₹<span id="order-total">0</span>
+
+            </p>
+
+        </div>
+
+
+        <div class="success-actions">
+
+            <button
+                class="continue-shopping"
+                id="continue-shopping"
+            >
+                Continue Shopping
+            </button>
+
+
+            <button
+                class="view-orders-btn"
+                id="view-orders"
+            >
+                View Orders
+            </button>
+
+        </div>
+
+    </div>
+
+</main>
+
+
+<script src="script.js"></script>
+
+</body> </html>
